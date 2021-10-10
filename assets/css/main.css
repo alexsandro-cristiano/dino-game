@@ -6,6 +6,17 @@
 .dino {
   background-image: url('../img/dino.png');
 
+  margin-left: 1rem;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.cacto {
+  background-image: url('../img/cactus.png');
+
   margin-left: 0.2rem;
   width: 60px;
   height: 60px;
