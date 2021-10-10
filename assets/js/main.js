@@ -53,7 +53,7 @@ function criarCactos() {
       // Saiu da tela
       clearInterval(intervaloCacto)
       background.removeChild(divCacto)
-    } else if (cactoPosicao > 0 && cactoPosicao < 60 && posicao < 60) {
+    } else if (cactoPosicao > 0 && cactoPosicao < 60 && posicao < 70) {
       // Game over
       clearInterval(intervaloCacto)
       fimDeJogo = true

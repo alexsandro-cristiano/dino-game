@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background: #fafafa;
+}
+
 .dino {
   background-image: url('../img/dino.png');
 
@@ -23,4 +27,24 @@
 
   position: absolute;
   bottom: 0;
+}
+
+.background {
+  background-image: url('../img/background.png');
+  background-repeat: repeat-x;
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 200px;
+  animation: game 600s infite linear;
+}
+
+.game-over {
+  text-align: center;
+  color: #424242;
+  margin-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
 }
