@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dino {
+  background-image: url('../img/dino.png');
+
+  margin-left: 0.2rem;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  bottom: 0;
+}
